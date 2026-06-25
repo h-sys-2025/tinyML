@@ -1,6 +1,6 @@
 module main
 
-import h_sys_2025.tinyml.tinyML as ml
+import h_sys_2025.tinyml.tinyml as ml
 
 fn xor_model() {
     mut my_nn := ml.new_nn(2, 4, 1)  // 2 inputs, 4 hidden neurons, 1 output
