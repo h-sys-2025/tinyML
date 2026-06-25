@@ -2,27 +2,18 @@ module main
 
 import tinyml as ml
 
+
 fn xor_model() {
     mut my_nn := ml.new_nn(2, 4, 1)  // 2 inputs, 4 hidden neurons, 1 output
 
-    inputs := [ // training data.
+    inputs := [
         [0.0, 0.0],
         [0.0, 1.0],
         [1.0, 0.0],
         [1.0, 1.0],
     ]
 
-
-    //
-    // Graph: Our value goes in 2d space, and is non-linear, so we have to use atleast 3 neurons.
-    //
-    // Y
-    // |1 1
-    // |0 1
-    // ----X
-    //
-
-    targets := [ // expected output values.
+    targets := [
         [0.0],
         [1.0],
         [1.0],
@@ -70,5 +61,5 @@ fn and_model() {
 }
 
 fn main() {
-    xor_model()
+    and_model()
 }
