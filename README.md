@@ -1,10 +1,12 @@
 # TinyML v0.1.0-beta
 - Machine learning in v language.
+- Just a hot-take on ml logic.
 
+## Example: Xor and And.
 ```v
 module main
 
-import tinyml as ml
+import h_sys_2025.tinyml.tinyml as ml
 
 
 fn xor_model() {

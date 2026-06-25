@@ -1,6 +1,6 @@
 module main
 
-import tinyml as ml
+import h_sys_2025.tinyml.tinyml as ml
 
 
 fn xor_model() {
