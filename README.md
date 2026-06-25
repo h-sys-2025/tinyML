@@ -2,6 +2,10 @@
 - Machine learning in v language.
 - Just a hot-take on ml logic.
 
+![0.29](https://img.shields.io/badge/version-0.29-white?style=flat)
+![GitHub](https://img.shields.io/badge/license-MIT-blue?style=flat)
+![vlang](http://img.shields.io/badge/V-0.5+-%236d8fc5?style=flat)
+
 ## Installazation:
 ```sh
 v install h-sys-2025.tinyML
