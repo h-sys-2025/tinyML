@@ -1,3 +1,7 @@
+# TinyML v0.1.0-beta
+- Machine learning in v language.
+
+```v
 module main
 
 import h_sys_2025.tinyml.tinyML as ml
@@ -72,3 +76,4 @@ fn and_model() {
 fn main() {
     xor_model()
 }
+```

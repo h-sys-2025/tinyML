@@ -1,4 +1,4 @@
-module ml
+module tinyML
 
 import math
 import rand
