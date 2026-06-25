@@ -2,6 +2,11 @@
 - Machine learning in v language.
 - Just a hot-take on ml logic.
 
+## Installazation:
+```sh
+v install h-sys-2025.tinyML
+```
+
 ## Example: Xor and And.
 ```v
 module main
